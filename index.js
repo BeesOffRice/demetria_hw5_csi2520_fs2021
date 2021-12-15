@@ -7,23 +7,26 @@ const path = require("path");
 
 const app = express();
 
-app.get("/", (req,res) => {
-    res.render("index");
-});
-
 app.use(bodyParser.urlencoded({extended: true}));
+
+// app.engine('html', require('ejs').renderFile);
+// app.set('view engine', 'html');
 
 app.set("viewengine","ejs");
 
 app.use("/public", express.static(path.resolve(__dirname, 'public')));
 
 //routes
+app.get("/", (req,res) => {
+    res.render("index.ejs");
+});
+
 app.get("/resume",(req,res) => {
-    res.render("views/html/resume");
+    res.render("html/resume.ejs");
 });
 
 app.get("/facts",(req,res) => {
-    res.render("views/html/facts");
+    res.render("html/facts.ejs");
 });
 
 
