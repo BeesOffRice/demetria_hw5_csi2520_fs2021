@@ -1,0 +1,29 @@
+{
+  "name": "portfolio_project",
+  "version": "1.0.0",
+  "description": "Creating a portfolio for CSI 2520",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeesOffRice/demetria_hw5_csi2520_fs2021.git"
+  },
+  "author": "Demetria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeesOffRice/demetria_hw5_csi2520_fs2021/issues"
+  },
+  "homepage": "https://github.com/BeesOffRice/demetria_hw5_csi2520_fs2021#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "heroku": "^7.59.2",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  }
+}

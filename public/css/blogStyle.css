@@ -1,0 +1,51 @@
+nav{
+    text-align: center;
+    background-color: rgb(245, 222, 212);
+    color:black;
+    height:70px;
+}
+
+.navItems{
+    line-height: 70px;
+    padding:10px;
+    margin:1px;
+    background-color: rgb(253, 175, 123);
+    text-align: center;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+.navItems:hover{
+    background-color: white;
+    color:black;
+}
+
+footer{
+    background-color: rgb(245, 222, 212);
+    height: 50px;
+    line-height: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    text-align: center;
+}
+
+.comDiv{
+    background-color:rgb(170, 214, 255);
+    padding:2%;
+    margin:1%;
+    font-size: 14pt;
+}
+
+.commText{
+    padding: 1%;
+    border-style:solid;
+    border-color:black;
+}
