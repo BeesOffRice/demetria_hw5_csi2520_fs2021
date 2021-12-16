@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+
+    <script src="../../public/js/test.js" defer></script>
+    <!-- <script type="module" src="./trivia" defer></script> -->
+    <script src="https://kit.fontawesome.com/56d7ee2732.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../public/css/triviaStyle.css">
+    <link rel="icon"  type = "img/png" href="../../public/img/favicon.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="navItems"><a href="/">Home</a></span>
+            <span class="navItems"><a href="/resume">Resume</a></span>
+            <span class="navItems"><a href="/facts">Fun Facts</a></span>
+            <span class="navItems"><a href="/trivia">Trivia</a></span>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Trivia Questions For the Soul</h1>
+
+        <div class="questions">
+            <form action="/answer" method="post"> 
+                <h2>why are we here, just to suffer</h2>
+                <label for="answer1">a | b | c</label><br><br>
+                <input type="text" value="answer" id="answer1" name="answer1">
+
+                <br><br>
+                
+                <h2>why are we here, just to suffer</h2>
+                <label for="answer2">a | b | c</label><br><br>
+                <input type="text" value="answer" id="answer2" name="answer2">
+                
+                <br><br>
+                <h2>why are we here, just to suffer</h2>
+                <label for="answer3">a | b | c</label><br><br>
+                <input type="text" value="answer" id="answer3" name="answer3">
+
+                <br><br>
+                <h2>why are we here, just to suffer</h2>
+                <label for="answer4">a | b | c</label><br><br>
+                <input type="text" value="answer" id="answer4" name="answer4">
+
+                <br><br>
+                <h2>why are we here, just to suffer</h2>
+                <label for="answer5">a | b | c</label><br><br>
+                <input type="text" value="answer" id="answer5" name="answer5">
+
+                <br><br>
+
+                <button type="submit" id="submitFormButt">Submit Your Answers!</button>
+            </form>
+            <p id="test">waiting for an answer....</p>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <span>&copy; Dasha Demetria</span>
+        <span><a href = "mailto: drdemetria@oakland.edu">Email Me! <i class="fas fa-envelope-square"></i></a></span>
+    </footer>
+</body>
+</html>
